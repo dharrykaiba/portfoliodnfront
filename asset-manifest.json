@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/portfoliodnfront/static/css/main.31d6cfe0.css",
+    "main.js": "/portfoliodnfront/static/js/main.d0ea2702.js",
+    "index.html": "/portfoliodnfront/index.html",
+    "main.d0ea2702.js.map": "/portfoliodnfront/static/js/main.d0ea2702.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.d0ea2702.js"
+  ]
+}

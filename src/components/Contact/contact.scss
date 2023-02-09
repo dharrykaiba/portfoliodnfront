@@ -1,11 +1,22 @@
+@import "../../global.scss";
+
 .contact {
     background-color: white;
     display: flex;
+
+    @include mobile {
+        flex-direction: column;
+    }
+
     .left {
         flex: 1;
         overflow: hidden;
         img {
             height: 100%;
+
+            @include mobile {
+                height: 80%;
+            }
         }
     }
     .right {
@@ -31,11 +42,22 @@
                 width: 300px;
                 height: 30px;
                 font-size: 14px;
+                @include mobile {
+                    flex-direction: column;
+                    width: 200px;
+                    height: 20px;
+                }
             }
             textarea {
                 width: 300px;
                 height: 200px;
                 font-size: 14px;
+
+                @include mobile {
+                    flex-direction: column;
+                    width: 200px;
+                    height: 100px;
+                }
             }
             button {
                 width: 150px;
@@ -46,7 +68,7 @@
                 border-radius: 10px;
                 font-weight: 500;
                 cursor: pointer;
-                
+
                 &:focus {
                     outline: none;
                 }

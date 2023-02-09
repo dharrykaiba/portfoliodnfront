@@ -29,8 +29,8 @@ export default function Works () {
 
   const handleClick = way => {
     way === 'left'
-      ? setCurrentSlide(currentSlide > 0 ? currentSlide -1 : 2)
-      : setCurrentSlide(currentSlide < data.length -1 ? currentSlide +1 : 0)
+      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
+      : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0)
   }
   return (
     <div className='works' id='works'>
@@ -57,19 +57,20 @@ export default function Works () {
             </div>
           </div>
         ))}
+        
       </div>
       <img
-        src='assets/arrow.png'
-        className='arrow left'
-        alt=''
-        onClick={() => handleClick('left')}
-      />
-      <img
-        src='assets/arrow.png'
-        className='arrow right'
-        alt=''
-        onClick={() => handleClick()}
-      />
+          src='assets/arrow.png'
+          className='arrow left'
+          alt=''
+          onClick={() => handleClick('left')}
+        />
+        <img
+          src='assets/arrow.png'
+          className='arrow right'
+          alt=''
+          onClick={() => handleClick()}
+        />
     </div>
   )
 }

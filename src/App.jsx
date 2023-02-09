@@ -20,10 +20,10 @@ export default function App () {
 
       <div className='sections'>
         <Intro></Intro>
-        <Portfolio></Portfolio>
+        {/*<Portfolio></Portfolio>
         <Works></Works>
         <Testimonials></Testimonials>
-        <Contact></Contact>
+        <Contact></Contact>*/}
       </div>
       {/*<Underconstruccion></Underconstruccion>*/}
     </div>
